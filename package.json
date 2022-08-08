@@ -1,0 +1,23 @@
+{
+  "name": "javascript_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "programa_teste.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro-h-santos/javascript_proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedro-h-santos/javascript_proj/issues"
+  },
+  "homepage": "https://github.com/pedro-h-santos/javascript_proj#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
