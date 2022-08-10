@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-<title>Bem-Vindo ao JAVASCRIPT_PROJ<b>(tag title)</b></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bem-Vindo ao JAVASCRIPT_PROJ<b>(tag title)</b></title>
+        <style>
+            p{
+                font-family: arial;
+                font-size: small;
+            }
+            h2{
+                font-family: Arial;
+            }
+            h1{
+                font-family:Arial;
+                color:black;
+            }
+            .col0{
+                float:left;
+                width:25%;
+                padding:5px;
+                box-sizing: border-box;
+                margin: 0px;
+                border:1px solid red;
+            }
+            .col1{
+                float:right;
+                width: 25%;
+                padding: 5px;
+                box-sizing: border-box;
+                margin: 0px;
+                border: 1px solid blue;
+            }
+            .grade_semFormatacao{
+                display:grid;
+                grid-row-gap:10px;
+                grid-template-columns:auto auto auto auto auto;
+                padding: 5px;
+                border: 1px solid red;
+                }
+            .grade_formatada{
+                background-color: lightgrey;
+                padding: 5px;
+                margin:5px;
+                border:2px solid green;
+                }
+        </style>
     </head>
     <body>
-<h1>Construindo tabelas olha que legal<b>(tag h1, dentro do body)</b></h1>
-<h2>OLHA tag <b>h2</b></h2>    
-<h3>OLHA tag <b>h3</b></h3>
-<h4>OLHA tag <b>h4</b></h4>
-<h5>OLHA tag <b>h5</b></h5>
-<h6>OLHA tag <b>h6</b></h6>
-<table>
-
-    
-</table>
+        <h1>Construindo tabelas usando parametros do CSS</h1>
+        <h2>Colunas iniciadas da Esquerda</h2> 
+        <p class="col0"> Coluna teste n.1</p>
+        <p class="col0"> Coluna teste n.2</p>
+        <p class="col0"> Coluna teste n.3</p>
+        <p class="col0"> Coluna teste n.4</p>
+        <p class="col0"> Coluna teste n.5</p>
+        <br>
+        <br>
+        <br>
+        <h2>Culunas iniciadas da Direita</h2>
+        <p class="col1"> Coluna teste n.1</p>
+        <p class="col1"> Coluna teste n.2</p>
+        <p class="col1"> Coluna teste n.3</p>
+        <p class="col1"> Coluna teste n.4</p>
+        <p class="col1"> Coluna teste n.5</p>
+        <br>
+        <h2>Colunas sem formatação </h2>
+        <div class="grade_semFormatacao">
+            <p>Coluna teste n.1</p>
+            <p>Coluna teste n.2</p>
+            <p>Coluna teste n.3</p>
+            <p>Coluna teste n.4</p>
+            <p>Coluna teste n.5</p>
+        </div>
+        <h2>Colunas com formatção </h2>
+        <p class="grade_formatada">Coluna teste n.1</p>
+        <p class="grade_formatada">Coluna teste n.2</p>
+        <p class="grade_formatada">Coluna teste n.3</p>
+        <p class="grade_formatada">Coluna teste n.4</p>
+        <p class="grade_formatada">Coluna teste n.5</p>
 </body>
 </html>
